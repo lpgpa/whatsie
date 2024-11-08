@@ -31,7 +31,7 @@ int main(int argc, char *argv[]) {
   QApplication::setApplicationName("WhatSie");
   QApplication::setDesktopFileName("com.ktechpit.whatsie");
   QApplication::setOrganizationDomain("com.ktechpit");
-  QApplication::setOrganizationName("org.keshavnrj.ubuntu");
+  QApplication::setOrganizationName("org.keshavnrj.ubuntu-sp");
   QApplication::setApplicationVersion(VERSIONSTR);
 
   qputenv("QTWEBENGINE_DICTIONARIES_PATH",

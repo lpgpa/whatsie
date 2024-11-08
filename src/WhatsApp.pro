@@ -173,7 +173,7 @@ CONFIG(FLATPAK){
     QMAKE_EXTRA_COMPILERS += dictoolbuild
     
     dictionaries.files = $${DICTIONARIES_DIR}/
-    dictionaries.path  = $$DATADIR/org.keshavnrj.ubuntu/WhatSie/
+    dictionaries.path  = $$DATADIR/org.keshavnrj.ubuntu-sp/WhatSie/
     
     unix:INSTALLS += dictionaries
 }
